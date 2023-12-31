@@ -647,10 +647,118 @@ font-weight: 600;
         
     }
 
+
     .about-content{
+        display: flex;
+       flex-direction: column;
         text-align: center;
-        justify-content: center;
+        width: 100%;
+        padding: 50px 0px;
+    }
+
+    .about--img{
         display: block;
+
+    }
+
+    .about-txt{
+        width: 320px;
+    }
+
+    
+    .about-img{
+        text-align: center;
+        width: 400px;
+        padding: 30px;
+    }
+    .about-img img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .about-title{
+        font-size: 30px;
+    }
+
+    .popular-course{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cards-container{
+        text-align: center;
+    }
+
+    .card-content{
+        margin-bottom:30px;
+    }
+
+    .instructors-content{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        place-content: center;
+        gap: 15px;
+    }
+
+    .instructor-cards{
+        text-align: center;
+        width: 170px;
+    }
+
+    .instructor{
+        width: 140px;
+    }
+    .instructor img{
+        width: 120px;
+    }
+
+    .testimonial-container{
+        width: 100%;
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+    }
+    .testimonial-content{
+        width: 80%;
+        text-align: center;
+    }
+
+    .testimonial-txt{
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .testimonial-img img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .aboutus-container{
+        width: 100%;
+    }
+
+    .questions-content{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+        padding-top: 40px;
+    }
+    .questions-img img{
+        width: 180px;
+        height: 450px;
+    }
+
+    .questions-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding-top: 20px;
     }
 }
 
