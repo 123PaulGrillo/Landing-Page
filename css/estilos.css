@@ -533,7 +533,7 @@ font-weight: 600;
 
 @media (max-width:1050px){
     .container{
-        max-width: 700px;
+        max-width: 900px;
     }
 
     .menu{
@@ -558,59 +558,86 @@ font-weight: 600;
     .cta-block{
         padding: 15px 35px;
     }
-}
 
-.about-content{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 100px 0px;
-}
-.about-img img{
-    width: 400px;
-    height: 450px;
-    border-radius: 5px 70px;
-}
+    .aboutus-container{
+        width: 100%;
+    }
+    .about-content{
+        width: 100%;
+    }
+    
+    .about-img img{
+        width: 350px;
+        height: 350px;
+    }
 
-.about-img, .about-txt{
-    width: 50%;
-}
+    .about-title{
+        font-size: 30px;
+    }
 
-.about-section{
-    color: #6A44F2;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
+    .paragraph-about{
+        font-size: 16px;
+    }
 
-.about-title{
-    font-size: 45px;
-    line-height: 1.2em;
-    font-weight: bold;
-    margin-bottom: 25px;
-}
+    .popular-course{
+        width: 100%;
+    }
+    .cards-container{
+        grid-template-columns: repeat(2 ,.5fr);
+        width: 90%;
+        column-gap: 100px;
+        text-align: center;
+    }
 
-.paragraph-about{
-    color: #7b7b7b;
-    margin-bottom: 25px;
-}
+    .card-content{
+        
+        padding: 10px;
+    }
 
-.check{
-    color: #585858;
-    display: flex;
-    align-items: center;
-    font-weight: 600;
-}
+    .card-img img{
+        width: 250px;
+    }
+    .title-card{
+        text-align: center;
+    }
+    .card-txt{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .info-card{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 
-.check img{
-    width: 22px;
-    height: 22px;
-    margin: 0px 5px;
+    .paragraph-card {
+        padding: 0px;
+    gap: 5px;
+    }
+
+    .instructor-cards{
+        width: 200px;
+        padding: 10px;
+    }
+    .question-back{
+        padding: 15px 20px;
+    }
+
+    .questions-cta{
+        margin-bottom: 10px;
+    }
+
+    .questions-img img{
+        width: 200px;
+        height: 500px;
+    }
 }
 
 @media (max-width:680px){
     .container{
-        max-width: 400px;
+        max-width: 370px;
         display: block;
     }
 
@@ -672,8 +699,8 @@ font-weight: 600;
         padding: 30px;
     }
     .about-img img{
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
     }
 
     .about-title{
@@ -692,7 +719,7 @@ font-weight: 600;
     }
 
     .card-content{
-        margin-bottom:30px;
+        margin-bottom:10px;
     }
 
     .instructors-content{
@@ -700,7 +727,7 @@ font-weight: 600;
         width: 100%;
         grid-template-columns: repeat(2,1fr);
         place-content: center;
-        gap: 15px;
+        gap: 10px;
     }
 
     .instructor-cards{
@@ -733,8 +760,8 @@ font-weight: 600;
     }
 
     .testimonial-img img{
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
     }
 
     .aboutus-container{
@@ -749,8 +776,8 @@ font-weight: 600;
         padding-top: 40px;
     }
     .questions-img img{
-        width: 180px;
-        height: 450px;
+        width: 160px;
+        height: 400px;
     }
 
     .questions-txt{
@@ -759,6 +786,50 @@ font-weight: 600;
         justify-content: center;
         width: 100%;
         padding-top: 20px;
+    }
+    .blogs-content{
+        width: 90%;
+    }
+    .blogs-card{
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 10px;
+
+    }
+    .blogs-img img{
+        width: 120px;
+        height: 140px;
+    }
+
+    .title-card-info{
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    .paragraph-card-info{
+        font-size: 13px;
+        margin-bottom: 2px;
+    }
+
+    .cta-card-info {
+        font-size: 13px;
+    }
+
+    .footer-content{
+        text-align: center;
+        width: 100%;
+    }
+    .footer-info{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .footer-sections{
+        width: 100%;
+    }
+
+    .footer-section{
+        text-align: center;
+        width: 90%;
     }
 }
 
