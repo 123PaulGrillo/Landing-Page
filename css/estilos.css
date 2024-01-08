@@ -162,9 +162,14 @@ font-weight: 600;
     
 }
 .cards-container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    gap: 40px; */
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
     gap: 40px;
 }
 .card-content{
@@ -220,9 +225,14 @@ font-weight: 600;
     padding: 50px 0px;
 }
 .instructors-content{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4,1fr);
-    justify-items: center;
+    justify-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
+    gap: 30px;
 }
 .instructor-cards{
     background-color: #fff;
@@ -309,7 +319,9 @@ font-weight: 600;
 
 .questions-content{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
     padding: 100px 0;
 }
 
@@ -318,8 +330,8 @@ font-weight: 600;
 }
 
 .questions-img img{
-    width: 250px;
-    height: 600px;
+    width: 200px;
+    height: 500px;
     margin-right: 10px;
     border-radius: 10px;
 }
@@ -348,16 +360,17 @@ font-weight: 600;
 .questions-content-cta{
     display: flex;
     flex-direction: column;
+
 }
 
 .questions-cta{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: 500;
     background-color:#bdbdbd23 ;
-    padding: 20px 30px;
+    padding: 15px 30px;
     border: 2px solid rgba(0,0,0,0.1);
     border-radius: 5px;
     color: #0C0D26;
@@ -370,8 +383,13 @@ font-weight: 600;
 }
 
 .blogs-content{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
     gap: 30px;
 }
 .blogs-card{
@@ -396,6 +414,7 @@ font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 10px;
 }
 .blogs-img img{
     height: 150px;
